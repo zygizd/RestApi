@@ -190,10 +190,12 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Shared\CachedData.cs" />
     <Compile Include="Shared\ParseDate.cs" />
     <Compile Include="Shared\Serializer.cs" />
     <Compile Include="Shared\SortList.cs" />
-    <Compile Include="Shared\WebServiceData.cs" />
+    <Compile Include="Shared\WebServiceCall.cs" />
+    <Compile Include="Shared\GetDataFromXml.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Areas\HelpPage\HelpPage.css" />
